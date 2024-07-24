@@ -1,0 +1,368 @@
+@media  screen and (min-width: 800px) {
+body {
+    background-color: lightblue;
+    background-image: url(images/shoes-8212405_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    margin-left: 80px;
+    font-family: 'Times New Roman', Times, serif;
+   /* max-width: 100%; */
+
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 30px;
+   
+}
+h1{
+    margin-left: 30px;
+    color: white;
+    font-size: 40px;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 180px;
+    margin-top: 110px;
+}
+li {
+    margin-right: 10px;
+    box-sizing: border-box;
+    /* border:  solid white; */
+    border-radius: 10px;
+    margin-top: 20px;
+    color: rgb(9, 120, 172);
+    height: 40px;
+
+}
+a {
+    text-decoration: none;
+}
+.sale {
+    display: flex;
+}
+button{
+    border-radius: 10px;
+    background-color: purple;
+    text-align: center;
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+    color: black;
+}
+header {
+    display: flexbox;
+    padding: 0;
+    margin: 0;
+}
+.aside {
+    max-width: 400px;
+    line-height: 35px;
+    color: white;
+    font-size: 20px;
+}
+.log {
+    /* display: flex; */
+    margin-left: 110px;
+    display: grid;
+    margin-top: 40px;
+    
+}
+.sep{
+    box-sizing: border-box;
+    background-color:purple;
+    color: rgb(41, 184, 236);
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main {
+    display: flex;
+
+}
+
+.shoe {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.future {
+    box-sizing: border-box;
+    /* background-color: white; */
+    max-width: 500px;
+    border-radius: 10px;
+    margin-left: 300px;
+}
+.future p {
+    margin-left: 20px;
+    color: white;
+
+}
+.future h4 {
+    margin-left: 20px;
+    color: darkgray;
+}
+.aside p {
+    color: white;
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+footer {
+    margin-left: 30px;
+}
+button:hover{
+    background-color: rgb(55, 55, 247);
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.sep:hover{
+    cursor: pointer;
+    background-color: rgb(72, 72, 224);
+    transition-duration: 1s;
+} 
+}
+@media screen and (max-width: 800px) {
+    .logo {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-top: 25px;
+}
+body {
+    background-color: lightblue;
+    background-image: url(images/nike-5126389_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+    
+}
+.head {
+    display: flex;
+}
+h1{
+    margin: 50px;
+    font-size: 30px;
+    color: white ;
+}
+.log {
+    display: flex;
+    
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sep {
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-bottom: 0px;
+    margin-right: 10px;
+    width: 80px;
+    height: 40px;
+    padding: 10px 10px;
+    text-align: center;
+    
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.main {
+    border-top: solid gray;
+    display: flex;
+}
+.aside {
+    max-width: 300px;
+    color: rgb(252, 249, 249);
+    font-weight: bold;
+    line-height: 40px;
+}
+.future {
+    box-sizing: border-box;
+    width: 350px;
+    height: auto;
+    border: solid gray;
+    border-top: 0;
+}
+.future p {
+    margin-left: 15px;
+    color: white;
+}
+.shoe {
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.future  h4 {
+    margin-left: 15px;
+    color: white;
+}
+button {
+    border-radius: 10px;
+    background-color: purple;
+    text-align: center;
+    margin-right: 20px;
+    width: 120px;
+    height: 35px;
+    color: black;
+}
+button:hover{
+    background-color: rgb(77, 204, 46);
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.sep:hover{
+    cursor: pointer;
+    background-color: rgb(130, 250, 33);
+    transition-duration: 1s;
+} 
+footer p {
+    color: rgb(207, 230, 6);
+}
+}
+@media screen and (min-width: 414px) {
+    .logo {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-top: 40px;
+}
+body {
+    background-color: lightblue;
+    background-image: url(images/nike-5126389_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.head {
+    display: flex;
+}
+h1{
+    margin: 50px;
+    font-size: 30px;
+    color: white ;
+}
+.log {
+    display: flex;
+    
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: solid gray;
+}
+.sep {
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-bottom: 0px;
+    margin-right: 10px;
+    width: 80px;
+    height: 40px;
+    padding: 10px 10px;
+    text-align: center;
+    
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.main {
+   
+    display: block;
+}
+.aside {
+    width: 320;
+    color: white;
+    line-height: 20px;
+}
+.future {
+    box-sizing: border-box;
+    width: 350px;
+    height: auto;
+    border: solid gray;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.shoe {
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.future p, h4 {
+    margin-left: 15px;
+    color: darkgray;
+}
+button {
+    border-radius: 10px;
+    background-color: rgb(76, 89, 94);
+    text-align: center;
+    margin-right: 20px;
+    width: 90px;
+    height: 35px;
+    color: black;
+}
+button:hover{
+    background-color: rgb(77, 204, 46);
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.sep:hover{
+    cursor: pointer;
+    background-color: rgb(130, 250, 33);
+    transition-duration: 1s;
+} 
+footer p {
+    color: rgb(207, 230, 6);
+}
+.container {
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+}
+
+@media screen and (max-width: 320px) {
+    
+}
+
+@media screen and (max-width:350px) {
+    .log {
+        display: flex;
+        flex-basis: 33.3333%;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .future {
+        height: fit-content;
+    }
+    
+}
+
+
+
+

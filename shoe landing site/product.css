@@ -1,0 +1,168 @@
+.container {
+    box-sizing: border-box;
+    border: 1px solid black;
+    max-width: 600px;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url(images/images\ \(6\).jpeg);
+    max-width: 600px;
+}
+.image {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+h1 {
+    color: white;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(111, 148, 161);
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 150px;
+    height: 35px;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    border-radius: 10px;
+    background-color: rgb(205, 236, 247);
+    text-align: center;
+    margin-right: 20px;
+    width: 150px;
+    height: 35px;
+    color: black;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    display: flex;
+}
+.offers {
+    display: flex;
+
+}
+.first, .second, .third, .fourth, .fifth, .sixth{
+    width: 200px;
+    height: 200px;
+    
+}
+.main{
+    margin-bottom: 40px;
+}
+p {
+    color: gray;
+}
+body {
+    background-color: rgb(80, 78, 78);
+}
+.one {
+    height: auto;
+    padding: 10px;
+    width: 225px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    margin-left: 25px;
+     
+}
+    
+
+.two{
+    height: auto;
+    padding: 10px;
+    width: 225px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    margin-left: 25px;
+}
+.three{
+    height: auto;
+    padding: 10px;
+    width: 225px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    /* margin-left: 25px; */
+}
+.four {
+    height: auto;
+    padding: 10px;
+    width: 225px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    /* margin-left: 25px; */
+}
+.five {
+    height: auto;
+    padding: 10px;
+    width: 225px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    margin-left: 25px;
+}
+.six{
+    height: auto;
+    padding: 10px;
+    width: 225px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    /* margin-left: 25px; */
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(72, 72, 224);
+    transition-duration: 1s;
+} 

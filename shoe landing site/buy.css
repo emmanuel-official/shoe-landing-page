@@ -1,0 +1,64 @@
+.main {
+   line-height: 20px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    text-align: justify;
+}
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+body {
+    background-image: url(images/images\ \(3\).jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.name {
+    display: flex;
+    
+}
+.number {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+}
+.address {
+    justify-content: space-around;
+    display: flexbox;
+}
+.txt {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    height: 35px;
+    border-radius: 5px;
+    width: 47%;
+}
+.NM {
+    height: 35px;
+    width: 219px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.txtarea {
+    border-radius: 10px;
+    height: 70px;
+}
+button {
+    border-radius: 5px;
+    background-color: rgb(205, 236, 247);
+    text-align: center;
+    margin-right: 20px;
+    width: 300px;
+    height: 40px;
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 15%;
+
+}

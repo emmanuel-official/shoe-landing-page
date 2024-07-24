@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUY NOW</title>
+    <link rel="stylesheet" href="buy.css">
+    <script>
+        function myfunction() {
+            document.getElementById ("menu").innerHTML = "Your order has been placed.Thank you for choosing Rhagnall footwears";
+            document.getElementById ("menu").style.backgroundColor = "gray";
+            document.getElementById ("menu").style.borderRadius = "10px";
+            document.getElementById ("menu").style.textAlign = "center";
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>RH Order Form</h1>
+                Name:<br>
+            <div class="name">    
+                <input type="text" placeholder="First" required class="NM"><br>
+                <input type="text" placeholder="last" required class="NM"><br>
+            </div>
+            Business name:<br>
+            <input type="text" class="number"><br>
+            Email address:<br>
+            <input type="email" required class="number"><br>
+            Phone number:<br>
+            <input type="tel" class="number"><br>
+            Delivery address:<br>
+            <input type="text" placeholder="street address" class="number"><br>
+            <div class="address">
+                <input type="text" placeholder="city" class="txt">
+                <input type="text" placeholder="regioin" class="txt">
+                <input type="text" placeholder="postal/zip code" class="txt">
+                <input type="text" placeholder="country" class="txt">
+            </div>
+            List part type or Modal Number:<br>
+            <textarea name="message" rows="5" cols="54" id="" class="txtarea"></textarea>
+            Quantity:<br>
+            <input type="text" class="number"><br>
+        <p id="menu">
+            <button type="submit" onclick="myfunction()">submit</button>
+        </p>
+        </div>
+    </div>
+</body>
+</html>
